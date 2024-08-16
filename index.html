@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Test Page — www.VipersByteSolutions.com</title>
+    </head>
+    <body>
+        <nav>
+        <a href="#https://www.VipersByteSolutions.com">VipersByteSolutions.com</a>
+        <a href="#https://copper-mouse-3zl4.squarespace.com/age-verification-page">DepressionsDistortionOfReality.net</a>
+        </nav>
+    <style>
+        body {background-color: powderblue;}
+        h1 {color: green;}
+        p {color: blue;}
+    </style>
+
+
+    <h1>My first project for basic skills assessment.</h1>
+    <section id="top">
+        <article>
+            <p>
+                Hello HTML, CSS, API, C#, and SQL with just a tiny splash of JavaScript thrown in for good measure!
+            </p>  
+        </article>
+        <article>
+            <p>
+                I am putting together my first website writing all of the HTML code myself. Except for the initial HTML line so it would stay on SquareSpace's site.
+            </p>
+        </article>
+    </section>
+    <section>
+        <p>
+            Howdy Y'all - This is a place Holder.
+        </p>
+    </section>
+    <section id="number_calculations">
+        <article>
+            <p>
+                This is going to be interesting.
+            </p>
+            <h2>Fun with numbers!</h2>
+            <h3>Please select two numbers and the mathamatical operation that you would like to perform on the two numbers.</h3>
+            <form>
+                <label for="num1">First Number: </label>
+                <input id="num1" type="number" name="num1" value="0">
+                <br>
+                <br>
+                <label for="operation">Mathmatical operand: </label>
+                <select id="operation" name="operation">
+                    <option value="addition">Add</option>
+                    <option value="subtract">Subtract</option>
+                    <option value="multiply">Multiply</option>
+                    <option value="divide">Divide</option>
+                    <option value="exponent">Exponent</option>
+                </select>
+            </form>
+            <br>
+            <br>
+            <label for="num2">Second Number: </label>
+            <input id="num2" type="number" name="num2" value="0">
+            <br>
+            <br>
+            <button onclick="mathFunction()">Calculate</button>
+            <br>
+            <br>
+            <script>
+                function mathFunction()
+                    {
+                        var x = document.getElementById("num1").value;
+                        var y = document.getElementById("num2").value;
+                        var z = document.getElementById("operation").value;
+                    }
+            </script>
+        </article>
+    </section>
+    </body>
+</html>
